@@ -2,7 +2,7 @@ import Tkinter as tk
 from gtts import gTTS
 from playsound import playsound
 
-win = tk.TK()
+win = tk.Tk() #use win = tk.TK() if you are using unstable version of python 
 win.title("TEXT TO SPEECH")
 win.geometry("350x100")
 
