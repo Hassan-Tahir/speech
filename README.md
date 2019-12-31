@@ -9,4 +9,4 @@ Text to speech using python
 1. python speech.py
 
 # NOTE
-please do not forget to specify path of speech.mp3
+please do not forget to specify path of hello.mp3 file
