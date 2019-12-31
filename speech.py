@@ -2,7 +2,7 @@ import Tkinter as tk
 from gtts import gTTS
 from playsound import playsound
 
-win = tk.Tk() #use win = tk.TK() if you are using unstable version of python 
+win = tk.Tk()
 win.title("TEXT TO SPEECH")
 win.geometry("350x100")
 
@@ -10,8 +10,8 @@ win.geometry("350x100")
 def text_to_speech():
     text = entry.get()
     speech = gTTS(text=text,lang="en")
-    speech.save(root/speech.mp3)  #Your speech.mp3 path here
-    playsound(root/speech.mp3)    #Your speech.mp3 path here
+    speech.save("r'\Desktop\hello.mp3")
+    playsound("r'\Desktop\hello.mp3")
 
 #Create Label
 label = tk.Label(win,text="Enter Here :")
