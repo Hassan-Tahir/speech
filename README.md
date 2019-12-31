@@ -2,7 +2,8 @@
 Text to speech using python
 
 # Requirements
-1. pip install gtts
+1. pip install gtts<br>
+2. gtts-cli 'hello' --output hello.mp3
 
 # How to Run
 1. python speech.py
